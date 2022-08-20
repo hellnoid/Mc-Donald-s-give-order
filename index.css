@@ -1,0 +1,150 @@
+#search img{
+    height: 20px;
+    width: auto;
+}
+
+#location img{
+    height: 20px;
+    width: auto;
+}
+
+#Nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+}
+
+#upperNav{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#lowerNav{
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#lowerNav select,#left select{
+       border: none;
+}
+#left{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+#right{
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+}
+#search{
+    align-items: center;
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+#search input{
+    border: none;
+    height: 40px;
+    width: 70px;
+}
+
+#location input{
+    border: none;
+}
+
+#order{
+    border: none;
+    background-color: rgb(252, 218, 25);
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+}
+
+#location{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+#slide{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+#slide img{
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+#Nav *:hover{
+    cursor: pointer;
+}
+#ol2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    background-color: white;
+    border-radius: 10px;
+    gap: 4px;
+    padding: 7px;
+}
+
+#ol2 div{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 6px;
+    height: 150px;
+    width: 150px;
+}
+
+
+#ol2 p{
+    text-align: center;
+}
+
+#ol2 img{
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+#popup{
+   display: none;
+}
+#popup>div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.514);
+}
+#ol2 div:hover{
+    cursor: pointer;
+}
+#ol1{   
+    
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#ol1 button{
+    margin-top: 10px;
+    background-color: orange;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 150px;
+}
